@@ -1,0 +1,93 @@
+.containerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: black;
+}
+
+.containerNav a {
+  padding: 1rem;
+}
+
+header {
+  background-image: url(./media/patrones.jpg);
+  background-blend-mode: soft-light;
+  background-color: rgba(0, 0, 0, 0.918);
+  background-size: contain;
+}
+
+:root {
+  --gradient: linear-gradient(to left top, #cc0d0d 10%, #4947468e 90%) !important;
+}
+
+body {
+  background: #111 !important;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: blanchedalmond !important;
+  border-image-source: var(--gradient) !important;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+  background: var(--gradient) !important;
+  background-clip: none !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important;
+  -webkit-box-shadow: #222 1px 0 10px;
+          box-shadow: #222 1px 0 10px;
+  text-decoration: none;
+}
+
+.card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url(./media/patrones.jpg);
+  background-size: auto;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #e71805;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+.imgLogo {
+  width: 8rem;
+}
+
+button a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
