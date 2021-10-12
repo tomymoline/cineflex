@@ -60,9 +60,9 @@ body {
 
 .card-img-left {
   width: 45%;
-  /* Link to your background image using in the property below! */
-  background: scroll center url(./media/patrones.jpg);
-  background-size: auto;
+  background: scroll center url(./media/movie-flex-logo.png);
+  background-color: rgba(0, 0, 0, 0.925);
+  background-size: contain;
 }
 
 .btn-login {
@@ -89,5 +89,41 @@ button a {
   list-style: none;
   text-decoration: none;
   color: white;
+}
+
+.imgFooter {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 5rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 2px;
+  width: 100%;
+  height: 5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+
+h6 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
