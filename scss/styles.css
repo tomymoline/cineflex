@@ -133,4 +133,56 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
 }
+
+table.steelBlueCols {
+  background-color: #000000;
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  margin-top: 10%;
+}
+
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 0px solid #FFFFFF;
+  padding: 5px 10px;
+}
+
+table.steelBlueCols tbody td {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+table.steelBlueCols thead {
+  background: #FF1515;
+  border-bottom: 10px solid #000000;
+}
+
+table.steelBlueCols thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #3889A2;
+}
+
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+
+table.steelBlueCols tfoot .links a {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=styles.css.map */
