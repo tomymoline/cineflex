@@ -1,8 +1,5 @@
 $footercolor: black;
 $textcolor: white;
-
-
-
 @mixin footer1 {
   display: inline-flex;
   gap: 2px;
@@ -14,11 +11,6 @@ $textcolor: white;
   color: $textcolor;
   padding: 3px;
 }
-
-
-
-
-
 .containerNav {
   display: flex;
   text-decoration: none;
@@ -29,32 +21,29 @@ $textcolor: white;
       padding: 1rem;
   }
   }
-
- 
-
   header  
   {
       background-image: url(../media/patrones.jpg);
       background-blend-mode: soft-light;
-      background-color: rgba(0, 0, 0, 0.966);
+      background-color: rgba(0, 0, 0, 0.925);
+      margin-bottom: 1px solid;
       background-size: contain;
       :root {
       --gradient: linear-gradient(to left top, #cc0d0d 10%, #4947468e 90%) !important;
+      ul li {
+        list-style: none;
+        text-decoration: none;
+      }
     }
-  }
-
-  
-    
+  }    
     body {
-      background: #111 !important; 
-     
+      background: #111 !important;      
     }
      .card {
       background: #222;
       border: 1px solid #d80e0e;
       color: rgba(211, 205, 205, 0.8);
-      margin-bottom: 2rem;
-      
+      margin-bottom: 2rem;     
     }
     .btn {
       border: 5px solid;
@@ -64,8 +53,7 @@ $textcolor: white;
       -webkit-text-fill-color:rgb(187, 184, 184) !important;
       border-image-source:  var(--gradient) !important; 
       text-decoration: none;
-      transition: all .4s ease; 
-     
+      transition: all .4s ease;      
     }
     .btn:hover, .btn:focus {
       background: var(--gradient) !important;
@@ -74,19 +62,14 @@ $textcolor: white;
       border: 5px solid #fff !important; 
       box-shadow: #222 1px 0 10px;
       text-decoration: none;
-    
+      list-style: none; 
     }
-    
-    
-    .card-img-left {
+   .card-img-left {
       width: 45%;
       background: scroll center url(../media/movie-flex-logo.png);
-      background-color: rgba(0, 0, 0, 0.925);
+      background-color: rgba(253, 237, 6, 0.925);
       background-size: contain;
-    }
-   
-
-    
+    } 
     .btn-login {
       font-size: 0.9rem;
       letter-spacing: 0.05rem;
@@ -117,14 +100,10 @@ $textcolor: white;
       display: inline-flex;
       width: 5rem;
       justify-content: flex-start;
-
-
     }
     footer {
   @include footer1()
-
     }
-
     h6 {
       display: inline-flex;
       align-items: center;

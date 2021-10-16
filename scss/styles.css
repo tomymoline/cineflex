@@ -17,12 +17,18 @@
 header {
   background-image: url(../media/patrones.jpg);
   background-blend-mode: soft-light;
-  background-color: rgba(0, 0, 0, 0.966);
+  background-color: rgba(0, 0, 0, 0.925);
+  margin-bottom: 1px solid;
   background-size: contain;
 }
 
 header :root {
   --gradient: linear-gradient(to left top, #cc0d0d 10%, #4947468e 90%) !important;
+}
+
+header :root ul li {
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -56,12 +62,13 @@ body {
   -webkit-box-shadow: #222 1px 0 10px;
           box-shadow: #222 1px 0 10px;
   text-decoration: none;
+  list-style: none;
 }
 
 .card-img-left {
   width: 45%;
   background: scroll center url(../media/movie-flex-logo.png);
-  background-color: rgba(0, 0, 0, 0.925);
+  background-color: rgba(253, 237, 6, 0.925);
   background-size: contain;
 }
 
