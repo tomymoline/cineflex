@@ -6,15 +6,11 @@ $textcolor: white;
   box-sizing: border-box
 }
 @mixin footer1 {
-  display: inline-flex;
   gap: 2px;
   width: 100%;
   height: 5rem;
-  justify-content: space-around;
-  align-items: center;
   background-color: $footercolor;
   color: $textcolor;
-  padding: 3px;
 }
 
 
