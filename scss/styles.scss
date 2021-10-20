@@ -442,4 +442,20 @@ body, button, input {
 }
 
 
-    
+@media (max-width: 520px) {
+  .heroAbout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroAbout img {
+    background-size: contain;
+    width: 250px;
+    border-radius: 1px;
+    margin-bottom: 1rem;
+  }
+  .heroAbout p {
+    width: auto;
+    margin: 1rem;
+  }
+}
+   
