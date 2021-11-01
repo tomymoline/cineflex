@@ -1,9 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Roboto:ital,wght@1,100&display=swap');
+
 $footercolor: black;
 $textcolor: white;
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
 }
 @mixin footer1 {
   gap: 2px;
